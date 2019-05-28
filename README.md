@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# JobChat
 
-## Available Scripts
+使用npx create-react-app脚手架创建工程环境
+一个基于找工作的聊天软件，涉及到注册登录、用户完善资料、聊天等～
 
-In the project directory, you can run:
 
-### `npm start`
+## 技术栈
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* `前端`：react+react-router+react-redux+react-thunk+Ant Design Mobile
+* `后端`：node.js+express+mongoose+socket.io
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## 运行方式
+1. cd/rain/server nodemon server.js
+2. mongod
+3. mongo
+4. npm start 
 
-### `npm test`
+## 注意
+目前聊天界面功能没有完全完善，登陆鉴权目前采用将输入密码经过md5加密和数据库进行比较，等有时间会使用JSON Web Token来改进。
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 运行截图
+截图加载可能较慢，请耐心等待,谢谢。
 
-### `npm run build`
+![image](https://github.com/gty1998/img-storge/blob/master/Jietu20190528-184225%402x.jpg)
+![image](https://github.com/gty1998/img-storge/blob/master/Jietu20190528-165145%402x.jpg)
+![image](https://github.com/gty1998/img-storge/blob/master/Jietu20190528-165412%402x.jpg)
+![image](https://github.com/gty1998/img-storge/blob/master/Jietu20190528-165532%402x.jpg)
+![image](https://github.com/gty1998/img-storge/blob/master/Jietu20190528-165615%402x.jpg)
+![image](https://github.com/gty1998/img-storge/blob/master/Jietu20190528-165718%402x.jpg)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
